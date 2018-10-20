@@ -30,10 +30,9 @@ public class MainActivity extends AppCompatActivity {
         customEditTextAnimation2 = findViewById(R.id.edt_rectangle);
         customEditTextAnimation3 = findViewById(R.id.edt_bottomLine);
 
-        customEditTextAnimation1.init(customEditTextAnimation1,transitionsContainer,100,20,250,40);
+        customEditTextAnimation1.init(customEditTextAnimation1,transitionsContainer,100,33,250,40);
         customEditTextAnimation2.init(customEditTextAnimation2,transitionsContainer,100,10,150,20);
         customEditTextAnimation3.init(customEditTextAnimation3,transitionsContainer,100,30,200,40);
-
 
     }
 
